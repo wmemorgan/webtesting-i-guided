@@ -6,10 +6,7 @@
   "scripts": {
     "test": "change this to use jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LambdaSchool/webtesting-i-guided.git"
-  },
+  "repository": "git+https://github.com/LambdaSchool/webtesting-i-guided.git",
   "keywords": [
     "lambda",
     "testing"
@@ -18,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/LambdaSchool/webtesting-i-guided/issues"
   },
-  "homepage": "https://github.com/LambdaSchool/webtesting-i-guided#readme"
+  "homepage": "https://github.com/LambdaSchool/webtesting-i-guided#readme",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
