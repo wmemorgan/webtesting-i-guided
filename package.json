@@ -4,7 +4,7 @@
   "description": "Web Testing I Guided Project",
   "main": "index.js",
   "scripts": {
-    "test": "change this to use jest"
+    "test": "jest --watch --verbose"
   },
   "repository": "git+https://github.com/LambdaSchool/webtesting-i-guided.git",
   "keywords": [
@@ -21,10 +21,10 @@
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "helmet": "^3.18.0",
-    "jest": "^24.8.0"
+    "helmet": "^3.18.0"
   },
   "devDependencies": {
+    "jest": "^24.8.0",
     "nodemon": "^1.19.1"
   }
 }
